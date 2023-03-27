@@ -1,0 +1,55 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#newcard {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+#newcard:hover {
+  opacity: 0.7;
+}
+
+#button:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-image: url(blackjack-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Trebuchet MS";
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
